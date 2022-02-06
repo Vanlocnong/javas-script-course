@@ -24,5 +24,72 @@
 ++ TĂNG GIÁ TRỊ 1 SỐ
 
 -- GIẢM GIÁ TRỊ MỘT SỐ
+
+++a => a + 1 , return a = a + 1
+
+a++ => copy a , a + 1 , return a = a copy
+
 */
 
+
+var a = 5;
+var b = 6;
+
+var c = '15' - 5;
+console.log(c)
+
+//TOAN TU GAN
+
+// = , x = y , x = y
+
+// += , x += y , x = x + y;
+
+// -= , x -= y , x = x - y;
+
+// *= , x *= y , x = x * y;
+
+// /= , x /= y , x = x / y;
+
+// **= , x **= y , x = x ** y;
+
+
+//TOAN TU CHUOI
+
+
+// var firstName = 'Nong';
+// var lastName = 'Loc';
+
+// console.log(firstName + lastName);
+ 
+
+
+//TOAN TU SO SANH
+
+/*
+== --> bằng
+
+!= --> k bằng
+
+> lớn hơn
+< nhỏ hơn
+
+>= lớn hơn or bằng
+
+<= nhỏ hơn hoặc bằng
+
+
+
+// if(a == b) {
+//     alert('True')
+// }
+
+
+
+
+
+
+//TOAN TU LOGICAL
+
+// if (a > 0 && b > 0) {
+//     alert('true')
+// }
