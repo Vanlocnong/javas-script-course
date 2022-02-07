@@ -77,7 +77,11 @@ console.log(c)
 
 <= nhỏ hơn hoặc bằng
 
+=== --> ss cả value và datatype
 
+!== --> <=> ===
+
+ 
 
 // if(a == b) {
 //     alert('True')
@@ -89,6 +93,10 @@ console.log(c)
 
 
 //TOAN TU LOGICAL
+
+- && : and
+- || : or
+- ! : not
 
 // if (a > 0 && b > 0) {
 //     alert('true')
