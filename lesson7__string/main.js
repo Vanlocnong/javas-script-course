@@ -34,7 +34,7 @@
 //  var funCommentText = `${commentText},' ',${authorName}` ;
 //  console.log(authorName)
 
-var fullName = 'Hi     Hi !    My Name is Loc';
+// var fullName = 'Hi     Hi !    My Name is Loc';
  
 // console.log(fullName.length)   22
 // console.log(fullName.indexOf('i'))
@@ -50,6 +50,11 @@ var fullName = 'Hi     Hi !    My Name is Loc';
 // console.log(fullName.trim())
 
  
-}
+var seconds = 60;
+
+var seconds = seconds.parseInt(60);
+
+console.log(seconds);
+
 
 
