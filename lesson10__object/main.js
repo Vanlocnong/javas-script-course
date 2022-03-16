@@ -23,8 +23,6 @@ myInfo['-gender-'] = '1';
 
 // them 1 cap key-value vao ob tu 1 var
 
-
-
 var oldSkill = 'skill';
 
 // 1 key k ton tai trong object se return undefine
