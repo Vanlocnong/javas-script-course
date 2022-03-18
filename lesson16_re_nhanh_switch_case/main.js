@@ -8,9 +8,9 @@ var day = date.getDate();
 switch(day)
 {
     case 15:
-    case 18:
+    case 17:
     case 19:
-        console.log('today not birthday1');
+        console.log('today not birthday');
         break;
     // case 19:
     //     console.log('today not birhtday2');
