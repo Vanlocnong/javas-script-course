@@ -10,16 +10,16 @@ function user(name, age, gender) {
     }
 }
 
-user.email = '...@gmail.com'
+
 
 var male = new user('Loc','24','male');
 var female = new user('Ngoc', '23', 'female');
 
 male.firstName = 'Nong';
 female.firstName = 'Nguyen';
-male.email = '...@gmail.com'
+user.prototype.email = '...@gmail.com';
 
 
-console.log(male.email);
+console.log(male);
 console.log(female);
 

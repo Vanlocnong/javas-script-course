@@ -9,7 +9,7 @@ switch(day)
 {
     case 15:
     case 17:
-    case 19:
+    case 22:
         console.log('today not birthday');
         break;
     // case 19:

@@ -16,7 +16,7 @@ function user(name, age, gender) {
 var male = new user('Loc','24','male');
 var female = new user('Ngoc', '23', 'female');
 
-user.height = '1m75';
+male.height = '1m75';
 console.log(male.height); //undefine;
 
 user.prototype.status = 'single';
