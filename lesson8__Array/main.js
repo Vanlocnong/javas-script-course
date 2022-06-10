@@ -23,15 +23,30 @@ var language = [
     'PHP',
     'RUBY'
 ];
-var languageSe = ['C++','GOLANG','PYTHON']
 
-// console.log(language.toString())
+var languageSe = [
+    'javascript',
+    'PHP',
+    'RUBY'
+];
 
-//console.log('arr.join(,s) :'+ ' ' + language.join(',s')) //string
+console.log()
 
-//console.log('arr.pop() :'+ ' ' + language.pop()) //string
 
-//console.log('arr.push()'+ ' ' + language.push('JAVA','PYTHON')) //number
+
+
+// var languageSe = ['C++','GOLANG','PYTHON']
+
+// var newLan = (language.toString())
+
+// console.log(newLan)
+
+
+// console.log('arr.join(,s) :'+ ' ' + language.join(',')) //string
+
+// console.log('arr.pop() :'+ ' ' + language.pop()) //string
+
+// console.log('arr.push()'+ ' ' + language.push('JAVA','PYTHON')) //number
 
 //console.log('arr.shift()'+ ' '+ language.shift()) //string
 

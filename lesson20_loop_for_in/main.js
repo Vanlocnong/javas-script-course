@@ -17,8 +17,12 @@ var myObject = {
     address: 'Lang Son Province'
 }
 
+
+
+
+
 for (var key in myObject) {
-    //console.log(myObject[key])
+    // console.log(myObject[key])
 }
 
 

@@ -11,7 +11,7 @@ function show() {
 }
 
 
-show('log1','log2','log3');
+// show('log1','log2','log3');
 
 
 
@@ -39,7 +39,7 @@ function write() {
     console.log(newString)
 }
 
-write(1,2,3,4,5,6,7);
+// write(1,2,3,4,5,6,7);
 
 
 
@@ -48,4 +48,4 @@ function write2() {
     
 }
 
-write2('log1','log2','log3')
+// write2('log1','log2','log3')

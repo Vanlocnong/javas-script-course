@@ -22,5 +22,4 @@ if (check === 5)
 {
     console.log('success')
 } else{
-    console.log('fail')
-}
+    console.log('fai

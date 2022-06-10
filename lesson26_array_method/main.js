@@ -18,20 +18,20 @@ var myArray = [
     },
     {
         name: 'PYTHON',
-        coin: 0
+        coin: 1
     },
     {
         name: 'PYTHON',
-        coin: 0
+        coin: 1
     },
     {
         name: 'PYTHON',
-        coin: 0
+        coin: 1
     },
 
     {
         name: 'SWIFT',
-        coin: 1
+        coin: 0
     }
 
 ]
@@ -43,7 +43,7 @@ var myArray = [
 //     console.log(index , course)
 // })
 
-//tra ra 2 tham so course(phan tu cuar mang) , index(index cua tung phan tu)
+//trả ra 2 tham số course(phần tử của mảng) , index(index của từng phần tử)
 
 //Every
 
@@ -53,7 +53,7 @@ var myArray = [
 
 // console.log(isFree)
 
-//kiem tra tat ca cac phan tu trong mang thoa man 1 dieu kien nao do
+//kiểm tra tất cả các phần tử trong mảng thỏa mãn 1 điều kiện nào đó
     
 //Some
 
@@ -71,6 +71,8 @@ var myArray = [
 //FIND()
 
 // isFree = myArray.find(function(course,index){
+
+    
 //     return course.coin === 0
 // })
 
@@ -83,4 +85,30 @@ var myArray = [
 // })
 
 // console.log(list)
+
+// MAP
+
+// function handle(course , index){
+//     return {
+//         id : 1,
+//         name: `Course: ${course.name}`,
+//         coin : course.coin,
+//         level : 'Hard',
+//     }
+// }
+
+// var newArray = myArray.map(handle)
+
+// console.log(newArray)
+
+
+//REDUCE
+
+
+function coinHandle () {
+
+}
+
+totalCoin = myArray.reduce(coinHandle , 0); 
+
 

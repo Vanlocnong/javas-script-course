@@ -10,16 +10,17 @@
  */
 
 
-for( var i = 1; i <= 1001; i++) {
-    
+for( var i = 1; i < 500; i++) {
+    // console.log(i)
 }
 
 
-var list = ['php','python','java','ruby','js'];
+var list = ['php','python','java','ruby','js','javascript'];
 
 var lengthOfList = list.length;
 
 for (var i = 0; i < lengthOfList ; i++) {
+    
     console.log(list[i])
 }
 

@@ -24,7 +24,7 @@
  * 7-toUpperCase()
  * 8-toLowerCase()
  * 9-trim() - loai bo ky tu thua
- * 10-split() -tim diem chung va cat 1 string beconme array 
+ * 10-split() -tim diem chung va cat 1 string become array 
  * 11-charAt() - lay dc phan tu bang 1 index cho san.
  *
  */
@@ -34,11 +34,17 @@
 //  var funCommentText = `${commentText},' ',${authorName}` ;
 //  console.log(authorName)
 
-// var fullName = 'Hi     Hi !    My Name is Loc';
- 
-// console.log(fullName.length)   22
-// console.log(fullName.indexOf('i'))
+var str = 'Hi ! My Name is Loc';
 
+
+console.log(str.trim());
+
+
+
+
+// console.log(fullName.length)   
+// console.log(fullName.indexOf('i'))
+// 
 // console.log(fullName.lastIndexOf('i'))
 
 // console.log(fullName.replace('Hi','Hello'))
@@ -49,12 +55,11 @@
 
 // console.log(fullName.trim())
 
- 
-var seconds = 60;
+ // var seconds = 60;
 
-var seconds = seconds.parseInt(60);
+// var seconds = seconds.parseInt(60);
 
-console.log(seconds);
+// console.log(seconds);
 
 
 
