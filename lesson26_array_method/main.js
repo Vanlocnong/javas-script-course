@@ -112,3 +112,14 @@ function coinHandle () {
 totalCoin = myArray.reduce(coinHandle , 0); 
 
 
+function calculateRating(watchList){
+    var films = watchList.filter(function(list){
+      return list.Director === 'Christopher Nolan';
+    })
+    var total = films.reduce(function(a,b){
+      return a + Number(b.imdbRating);
+    }, 0)
+    return total/films.length;
+  }
+
+  console.log(films)

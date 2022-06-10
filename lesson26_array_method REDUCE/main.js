@@ -91,11 +91,12 @@ var sport = [
 ]
 
 
+function getTotalGold(arr){
+    return arr.reduce(function(acc , curr,currindex , original){
+       return acc + curr.gold; 
+    } ,0)
 
-function getTotalGold (arr) {
-    return arr.reduce(function(acc,curr){
-        return acc + curr.gold;
-    },0)
+    
 }
 
 
