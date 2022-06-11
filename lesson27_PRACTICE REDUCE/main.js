@@ -92,9 +92,9 @@ var watchList = [
   ];
   
 
-  var direc = watchList.filter(function(list){
-    return list.Director === 'Christopher Nolan'
-});
+//   var direc = watchList.filter(function(list){
+//     return list.Director === 'Christopher Nolan'
+// });
 
 // console.log(direc);
 
@@ -102,16 +102,29 @@ var watchList = [
 
 
 
-function calculateRating(watchList){
-    var films = watchList.filter(function(list){
-      return list.Director === 'Christopher Nolan';
+// function calculateRating(watchList){
+//     var films = watchList.filter(function(list){
+//       return list.Director === 'Christopher Nolan';
       
-    })
+//     })
     
-    var total = films.reduce(function(a,b){
-      return a + Number(b.imdbRating);
-    }, 0)
-    return total/films.length;
+//     var total = films.reduce(function(a,b){
+//       return a + Number(b.imdbRating);
+//     }, 0)
+//     return total/films.length;
    
+//   }
+
+
+
+
+function flat(watchList) {
+  
+    return watchList.reduce(function(flatarr , currarr , indexarr , originalArr){
+      
+      return flatarr.concat(currarr.flatarr);
+    },[])
   }
 
+
+  console.log(flat(watchList))

@@ -22,7 +22,7 @@ var total = number.reduce2(function(total , curr){
 },10);
 
 
-console.log(total)
+// console.log(total)
 
 
 
@@ -50,5 +50,5 @@ function arrToObj(arr){
     },{})
 }
 
-console.log(arrToObj(arr)); // { name: 'Sơn Đặng', age: 18 }
+// console.log(arrToObj(arr)); // { name: 'Sơn Đặng', age: 18 }
 

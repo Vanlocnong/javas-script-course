@@ -24,7 +24,7 @@ var totalCoin = numbers.reduce(function(acc,curr){
     return acc + curr;
 }, 0)
 
-console.log(totalCoin)
+// console.log(totalCoin) : 1500
 
 //Flat "lam phang" mang tu mang depth
 
@@ -35,7 +35,7 @@ var newArray = array.reduce(function(flatOutput , arrayItem){
     return flatOutput.concat(arrayItem);
 },[]);
 
-console.log(newArray) //output = [1,2,3,4,5,6,7,8,9]
+// console.log(newArray) //output = [1,2,3,4,5,6,7,8,9]
 
 
 //vd 2
@@ -76,4 +76,4 @@ var newCourse = topics.reduce(function(course , curr){
     return course.concat(curr.courses)
 },[]);
 
-console.log(newCourse)
+console.log(newCourse) //
