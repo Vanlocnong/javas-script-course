@@ -96,7 +96,7 @@ var watchList = [
     return list.Director === 'Christopher Nolan'
 });
 
-console.log(direc);
+// console.log(direc);
 
 
 
