@@ -36,6 +36,14 @@ var myArray = [
 
 ]
 
+
+var myList = [
+    'a',
+    'b',
+    'c',
+    'd'
+]
+
 //Foreach()
 
 
@@ -45,7 +53,47 @@ var myArray = [
 
 //trả ra 2 tham số course(phần tử của mảng) , index(index của từng phần tử)
 
+Array.prototype.myForeach = function(callback){
+    var acc = [];
+    var arrLength = this.length;
+    for (var i = 0 ; i < arrLength ; i++){
+        callback(this[i],i);
+        acc.push(callback);
+    }
+    return acc
+
+}
+
+console.log(myList.myForeach(function(items , index){
+    console.log(items,index);
+}));
+
+
+console.log('NEXT METHOD')
+
 //Every
+var numberArray = [
+    1,
+    2,
+    3,
+    4
+];
+
+Array.prototype.myEvery = function(callback){
+    var acc = [];
+    var arrayLength = this.length;
+    for(var i = 0 ; i < arrayLength ; i++){
+        callback(this[i],i);
+        acc.push(callback);
+        
+    };
+    return acc;
+};
+
+
+console.log(numberArray.myEvery(function(items,index){
+    console.log(items,index)
+}));
 
 // var isFree = myArray.every(function(course , index){
 //     return course.coin === 0
@@ -105,21 +153,21 @@ var myArray = [
 //REDUCE
 
 
-function coinHandle () {
+// function coinHandle () {
 
-}
+// }
 
-totalCoin = myArray.reduce(coinHandle , 0); 
+// totalCoin = myArray.reduce(coinHandle , 0); 
 
 
-function calculateRating(watchList){
-    var films = watchList.filter(function(list){
-      return list.Director === 'Christopher Nolan';
-    })
-    var total = films.reduce(function(a,b){
-      return a + Number(b.imdbRating);
-    }, 0)
-    return total/films.length;
-  }
+// function calculateRating(watchList){
+//     var films = watchList.filter(function(list){
+//       return list.Director === 'Christopher Nolan';
+//     })
+//     var total = films.reduce(function(a,b){
+//       return a + Number(b.imdbRating);
+//     }, 0)
+//     return total/films.length;
+//   }
 
-  console.log(films)
+//   console.log(films)
