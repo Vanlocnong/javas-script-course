@@ -76,4 +76,18 @@ var newCourse = topics.reduce(function(course , curr){
     return course.concat(curr.courses)
 },[]);
 
-console.log(newCourse) //
+//console.log(newCourse) //
+
+
+var list = [1,2,[3,4],5,6,[7,8]];
+
+function flatArray(arr) {
+    return arr.reduce(function(newlist , currValue , indexCurr,Original){
+                return newlist.concat(currValue);
+        
+    },[])
+}
+
+
+console.log(flatArray(list))
+

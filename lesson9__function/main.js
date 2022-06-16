@@ -17,12 +17,12 @@ function show() {
 
 function writeLog(text,text2) {
     if(text) {
-        console.log('OK')
+        //console.log('OK')
     }
     else{
-        console.log('NG')
+        //console.log('NG')
     }
-    console.log(text2);
+    //console.log(text2);
 }
 
 writeLog(null,'text')
@@ -39,13 +39,13 @@ function write() {
     console.log(newString)
 }
 
-// write(1,2,3,4,5,6,7);
+write(1,2,3,4,5,6,7);
 
 
 
 function write2() {
-    console.log(arguments);
+    console.log(arguments)
     
 }
 
-// write2('log1','log2','log3')
+//write2('log1','log2','log3')
