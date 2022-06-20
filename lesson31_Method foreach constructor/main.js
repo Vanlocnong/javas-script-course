@@ -4,9 +4,9 @@
 var list = [
     'a',
     'b',
-    'c',
-    'd'
-]
+    "c",
+    "d"
+];
 
 
 //nguyên lý hoạt động của foreach , find , filter , some , every.
@@ -17,10 +17,29 @@ var list = [
 **/
 
 // creat myForeach();
-//foreach() template
 
-var output =  list.forEach(function(items , index , arr){
-    console.log(items , index , arr)
+//object prototype
+//for in
+
+Array.prototype.forEach2 = function(cb) {
+    for ( var i in this) {
+        if (this.hasOwnProperty(i)) {
+            cb(this[i], i , this);
+        };
+    };
+};
+
+
+list.forEach2(function(ele , index , arr){
+    console.log(ele , index , arr);
 });
 
-console.log(output)
+
+//foreach() template
+
+
+
+
+
+
+
