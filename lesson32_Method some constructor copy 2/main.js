@@ -37,7 +37,7 @@ Array.prototype.some2 = function(cb){
             }
         }
     }
-    return output
+    return output;
 
 }
 
