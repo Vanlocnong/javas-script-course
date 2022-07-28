@@ -93,7 +93,7 @@ var sport = [
 
 function getTotalGold(arr){
     return arr.reduce(function(acc , curr,currindex , original){
-       return acc + curr.gold; 
+        return acc + curr.gold; 
     } ,0)
 
     

@@ -46,7 +46,6 @@ function arrToObj(arr){
         let [name,value] = curr;
         obj[name] = value;
         return obj
-       
     },{})
 }
 

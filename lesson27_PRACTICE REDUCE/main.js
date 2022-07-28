@@ -112,7 +112,6 @@ var watchList = [
 //       return a + Number(b.imdbRating);
 //     }, 0)
 //     return total/films.length;
-   
 //   }
 
 
